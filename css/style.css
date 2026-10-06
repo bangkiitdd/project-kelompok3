@@ -67,3 +67,22 @@ body.gelap .card { background-color: #1c2538; border-color: #33415c; }
 /* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
 
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
+.form-kontak { margin-top: 24px; max-width: 500px; }
+.form-kontak label { display: block; margin-top: 12px; }
+.form-kontak input,
+.form-kontak textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.form-kontak button {
+    margin-top: 16px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1f3864;
+    color: white;
+    cursor: pointer;
+}
+#status-form { margin-top: 12px; font-weight: bold; }
