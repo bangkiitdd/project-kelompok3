@@ -63,6 +63,33 @@ body.gelap .card { background-color: #1c2538; border-color: #33415c; }
 }
 
 /* ===== BAGIAN MAHASISWA 2 (Beranda) ===== */
+.hero {
+  background-color: #1f3864;
+  color: white;
+  padding: 48px 32px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.hero h2 { font-size: 28px; margin-bottom: 10px; }
+.hero p { margin-bottom: 16px; max-width: 640px; }
+.tombol-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: white;
+  color: #1f3864;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.tombol-link:hover { background-color: #e3ebfa; }
+.info-singkat { margin-bottom: 32px; }
+.info-singkat h2 { margin-bottom: 8px; }
+.judul-seksi { margin-bottom: 16px; }
+body.gelap .hero { background-color: #1c2538; }
+@media (max-width: 600px) {
+  .hero { padding: 32px 20px; }
+  .hero h2 { font-size: 24px; }
+}
 
 /* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
 
